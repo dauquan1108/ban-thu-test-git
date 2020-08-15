@@ -1,0 +1,61 @@
+- nhận diện khuôn mặt: Keypoint-Face-f
+
+--Các điểm trên cơ thể: Keypoint_body-b 
+-Thorax: Ngực
+-Pelivis: Xương chậu
+-Right-shoulder: Vai phải
+-Left-shoulder: Vai trái
+-Right-elbow: Khuỷu tay phải
+-Left-elbow: khuỷu tay trái
+-Right-wrist: Cổ tay phải
+-Left-wrist: Cổ tay trái
+-Right-hip: Hông phải
+-Left-hip: Hông trái
+-Right-knee: Đầu gối phải
+-Left-knee: Đầu gối trái
+-Right-ankle: Mắt cá chân phải
+-Left-ankle: Mắt cá chân trái
+
+
+--phần đầu :head-h
+-Front:nhìn về phía trước
+-các thuộc tính khác
+
+
+-Điện thoại: Phone-o
+-Cốc: Cup-z
+-Chìa khóa:Key hole-k
+-Tổng thể người: Person-p 
+-Vô lăng: Steering wheel-l
+-Dây bảo hiểm: Seatbelt-i
+-Thuốc lá: Cigarette-x
+-Ví tiền: Wallet-c
+-Về tay: Hand-j
+-Sổ tay miếng giấy nhớ, giấy cỡ nhỏ: Node-s
+-Giấy hoặc tập tài liệu , folder đựng tài liệu kích thước giấy A4 trở lên: Chart-a
+-Góc ngồi của người: Triangle-g (Từ ngực xuống đến dưới áo và check góc 10độ)
+
+
+----Behavior action: 
+-Start-frame-num:số bắt đầu
+-End-frame-num:số kết thúc
+
+--phone behavior:hành vi điện thoại
+-Call: gọi
+-Hand: tay
+-Holder: người giữ
+-Below: bên dưới
+
+--distracted behavior:hành vi mất tập trung
+-chart-or-node:
+-looking:đang nhìn
+--seatbelt behavior:hành vi thắt dây an toàn
+-fastening:buộc
+-unfastening:tháo gỡ
+
+--sleep behavior:hành vi ngủ
+-nodding:gật đầu
+-yawing:ngáp
+-closed-eya:nhắm mắt
+
+
